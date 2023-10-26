@@ -41,7 +41,12 @@
     from {
         transform: rotate(0deg);
     }
-    to{
+    to {
+        transform: rotate(359deg);
+    }
+}
+@keyframes anim-spinner {
+    from {
         transform: rotate(0deg);
     }
     to {
