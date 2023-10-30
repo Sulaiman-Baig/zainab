@@ -1,0 +1,65 @@
+/* COLORS IN CSS  */
+/* RGB (Red, Green, Blue */
+h1 {
+    color: red;
+    color: rgb(255, 0, 0);
+}
+
+p {
+    color: blue;
+    color: rgb(0, 0, 255);
+}
+
+/* alpha - 0-1 */
+h1 {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+p {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+/* Hexadecimal Colors */
+h1 {
+    color: #ff0000;
+}
+
+p {
+    color: #0000ff;
+}
+
+/* colorhunt.com */
+
+p {
+    color: #363062;
+}
+
+/* HSL (Hue, Saturation, Lightness) */
+
+h1 {
+    color: hsl(0, 100%, 50%);
+}
+
+p {
+    color: hsl(220, 84%, 17%);
+}
+
+/*? HSLA Colors: Similar to HSL, HSLA includes an alpha channel for opacity control. */
+
+h1 {
+    color: hsla(268, 88%, 13%, 0.75);
+}
+
+p {
+    color: hsla(220, 84%, 17%, 0.8);
+}
+
+/* How can you set the text color of an element to match the current color of another CSS property within the same element? */
+
+.hero-section {
+    color: mediumvioletred;
+}
+
+p {
+    color: currentColor;
+}
