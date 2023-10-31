@@ -1,0 +1,59 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "jost";
+    }
+
+    h2 {
+        font-size: 64px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+    }
+
+    p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    section {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)),
+            url("https://images.pexels.com/photos/3826676/pexels-photo-3826676.jpeg?auto=compress&cs=tinysrgb&w=600");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+    }
+
+    .section-2 {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)),
+            url("https://images.pexels.com/photos/9668535/pexels-photo-9668535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+
+
+    .section-3 {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)),
+            url("https://media.istockphoto.com/id/1251629816/photo/the-perfect-setting-to-complete-work.webp?b=1&s=170667a&w=0&k=20&c=e8mSv3z6PhT18EUmzgtdMCbQecYzhHoqu_ts8tFdN6c=");
+        background-attachment: fixed;
+    }
+
+    .section-4 {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)),
+            url("https://e0.pxfuel.com/wallpapers/88/120/desktop-wallpaper-autodesk-website-background.jpg");
+    }
