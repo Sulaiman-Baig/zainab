@@ -1,0 +1,48 @@
+/* Units in CSS */
+/* Absolute and Relative Units */
+
+body {
+    background-color: hsl(0, 0%, 94%);
+}
+
+/* Pixels */
+h1 {
+    font-size: 34px;
+    color: purple;
+}
+
+p {
+    font-size: 28px;
+}
+
+li {
+    font-size: 24px;
+}
+
+/* 100% = 16px
+    1px =6.25% */
+
+/* 1em = 16px */
+h1 {
+    font-size: 3.375em;
+}
+
+p {
+    font-size: 1.81em;
+}
+
+.parent {
+    font-size: 10px;
+}
+
+li {
+    font-size: 1.65em;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 5.4rem;
+}
