@@ -1,0 +1,61 @@
+/* Fonts Properties */
+
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    justify-items: center;
+}
+
+.hero-section {
+    width: 50%;
+}
+
+/* Font-Family */
+
+h1 {
+    font-family: "Fortune";
+}
+
+p {
+    font-family: "Poppins", arial;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Font-Size */
+
+h1 {
+    font-size: 34px;
+}
+
+p {
+    font-size: 22px;
+}
+
+a {
+    font-size: 20px;
+}
+
+/* Font-Weight */
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: 300;
+}
+
+/* Font-Style */
+
+h1 {
+    font-style: italic;
+}
+
+/* Font-Variant */
+
+h1 {
+    font-variant: small-caps;
+}
