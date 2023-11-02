@@ -1,0 +1,28 @@
+/* Box Shadow */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Urbanist";
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #191717;
+    display: grid;
+    justify-items: center;
+}
+
+.shadow {
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    /*? box shadow here  */
+    box-shadow: 0 0 60px 60px yellow;
+}
