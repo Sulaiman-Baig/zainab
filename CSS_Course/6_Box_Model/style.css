@@ -1,0 +1,59 @@
+/* Box Model In CSS */
+/* Box Sizing*/
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-family: "Urbanist", sans-serif;
+}
+
+#main-heading {
+    font-size: 64px;
+    color: #1e1403;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+.section-one {
+    width: 1000px;
+    color: #fff;
+    background-color: #86aedf;
+    /* Border */
+    border: 10px solid blue;
+    /* Each property individually */
+    border-width: 9px;
+    border-style: solid;
+    border-color: #003180;
+    /*? we can write them individually too  */
+    border-top: 9px solid #003180;
+    border-right: 9px dotted #003180;
+    border-bottom: 9px ridge #003180;
+    border-left: 9px double #003180;
+    border-radius: 10px;
+    /* border-radius: 100px 10px 200px 0; */
+}
+
+/* Padding */
+.section-one {
+    padding: 200px;
+}
+
+/* Margin */
+.section-one {
+    margin: 20px 20px 50px 50px;
+    margin: 200px;
+    margin: auto;
+}
